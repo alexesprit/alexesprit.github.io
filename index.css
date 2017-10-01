@@ -38,3 +38,13 @@ body {
 .blue {
     color: #0088cc;
 }
+
+.blue2 {
+    color: #1da1f2;
+}
+
+/* Fix Telegram icon */
+.fa-telegram {
+    padding-top: 0.085em !important;
+    font-size: 1.72em !important;
+}
