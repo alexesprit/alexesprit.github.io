@@ -1,4 +1,5 @@
 a {
+    color: #0088cc;
     text-decoration: none;
 }
 
@@ -25,26 +26,4 @@ body {
 
 .user {
     padding-bottom: 20px;
-}
-
-.red {
-    color: #b90000;
-}
-
-.black {
-    color: #000;
-}
-
-.blue {
-    color: #0088cc;
-}
-
-.blue2 {
-    color: #1da1f2;
-}
-
-/* Fix Telegram icon */
-.fa-telegram {
-    padding-top: 0.085em !important;
-    font-size: 1.72em !important;
 }
