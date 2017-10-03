@@ -2,6 +2,9 @@ a {
     color: #0088cc;
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 
 body {
   margin: 0;
