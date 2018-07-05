@@ -30,3 +30,8 @@ body {
 .user {
     padding-bottom: 20px;
 }
+
+.aka {
+    color: #999;
+    font-size: 70%;
+}
