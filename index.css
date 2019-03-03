@@ -36,7 +36,10 @@ body {
     font-size: 70%;
 }
 
+.contacts {
+    margin-bottom: 16px;
+}
+
 .contacts a {
     font-size: 1.5em;
-    padding-bottom: 15px;
 }
