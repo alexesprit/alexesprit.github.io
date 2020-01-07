@@ -30,6 +30,7 @@ body {
 
 .user {
     margin: 16px;
+    text-align: center;
 }
 
 .bio {
@@ -39,6 +40,7 @@ body {
 
 .contacts {
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .contacts a {
