@@ -28,21 +28,20 @@ body {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.user {
-    margin: 16px;
-    text-align: center;
-}
-
 .bio {
     color: #888;
     font-size: 90%;
 }
 
-.contacts, .support {
-    margin-bottom: 16px;
+.contacts, .support, .user {
+    margin: 32px;
     text-align: center;
 }
 
 .contacts a {
     font-size: 1.5em;
+}
+
+.contacts-row {
+    margin: 16px;
 }
