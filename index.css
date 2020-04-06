@@ -33,6 +33,10 @@ body {
     font-size: 90%;
 }
 
+a.badge {
+    text-decoration: none;
+}
+
 .contacts, .support, .user {
     margin: 32px;
     text-align: center;
