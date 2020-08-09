@@ -1,65 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>alexesprit</title>
 
-    <title>alexesprit</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
+	<body>
+		<svg
+			aria-hidden="true"
+			focusable="false"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			xmlns="http://www.w3.org/2000/svg"
+			style="display: none;"
+		>
+			<symbol
+				fill="currentColor"
+				id="steam"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"
+				/>
+			</symbol>
+			<symbol
+				fill="currentColor"
+				id="at"
+				viewBox="0 0 16 16"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M 16,7.0562664 C 16,2.8957055 12.766355,0 8.1179008,0 3.3012221,0 0,3.250482 0,7.9957932 0,12.893953 3.2135155,16 8.2846873,16 9.5240834,16 10.713156,15.82752 11.597412,15.530237 l 0,-1.208765 c -0.61826,0.279054 -1.9468009,0.459948 -3.2925953,0.459948 -4.2070453,0 -6.9202013,-2.636284 -6.9202013,-6.7281334 0,-3.9880806 2.7620417,-6.8445224 6.6053199,-6.8445224 3.9324227,0 6.6254497,2.3670465 6.6254497,5.8278703 0,2.3586328 -0.79655,3.8829095 -2.035946,3.8829095 -0.707404,0 -1.109993,-0.392638 -1.109993,-1.0657316 l 0,-5.6245398 -1.4838241,0 0,1.1695004 -0.1581596,0 C 9.4450036,4.5644172 8.5607477,4.0469763 7.526959,4.0469763 c -2.0129403,0 -3.4191229,1.6294479 -3.4191229,3.9586328 0,2.4357579 1.3759885,4.0750219 3.4205607,4.0750219 1.1502517,0 2.0345076,-0.546889 2.4572251,-1.524277 l 0.1581591,0 c 0.116463,0.939527 1.010784,1.609816 2.161036,1.609816 C 14.565061,12.16617 16,10.181946 16,7.0576687 Z M 5.6808052,8.0434706 c 0,-1.6785276 0.7764198,-2.6741454 2.0934579,-2.6741454 1.3371675,0 2.1912294,1.0348816 2.1912294,2.6741454 0,1.6392638 -0.8641266,2.6839614 -2.2113588,2.6839614 -1.286844,0 -2.0733285,-1.016652 -2.0733285,-2.6839614 z"
+				></path>
+			</symbol>
+			<symbol
+				id="github"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+				fill="currentColor"
+			>
+				<path
+					d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+				></path>
+			</symbol>
+			<symbol
+				fill="currentColor"
+				id="twitter"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"
+				></path>
+			</symbol>
+			<symbol
+				fill="currentColor"
+				id="vk"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4.03 8.57 4.03 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.863 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.204.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"
+				/>
+			</symbol>
+			<symbol
+				fill="currentColor"
+				id="lastfm"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M10.599 17.211l-.881-2.393s-1.433 1.596-3.579 1.596c-1.9 0-3.249-1.652-3.249-4.296 0-3.385 1.708-4.596 3.388-4.596 2.418 0 3.184 1.568 3.845 3.578l.871 2.751c.871 2.672 2.523 4.818 7.285 4.818 3.41 0 5.722-1.045 5.722-3.801 0-2.227-1.276-3.383-3.635-3.935l-1.757-.384c-1.217-.274-1.577-.771-1.577-1.597 0-.936.736-1.487 1.952-1.487 1.323 0 2.028.495 2.147 1.679l2.749-.33c-.225-2.479-1.937-3.494-4.745-3.494-2.479 0-4.897.936-4.897 3.934 0 1.873.902 3.058 3.185 3.605l1.862.443c1.397.33 1.863.916 1.863 1.713 0 1.021-.992 1.441-2.869 1.441-2.779 0-3.936-1.457-4.597-3.469l-.901-2.75c-1.156-3.574-3.004-4.896-6.669-4.896C2.147 5.327 0 7.879 0 12.235c0 4.179 2.147 6.445 6.003 6.445 3.108 0 4.596-1.457 4.596-1.457v-.012z"
+				/>
+			</symbol>
+			<symbol
+				fill="currentColor"
+				id="telegram"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"
+				/>
+			</symbol>
+		</svg>
+		<header class="header">
+			<div class="container center">
+				<img
+					class="header__avatar"
+					src="https://gravatar.com/userimage/47092314/3bf3f4cda79428341a4d07f2e589a278.png?size=256"
+					alt="Avatar"
+				/>
+				<div class="header__name">
+					oh, alexesprit?
+				</div>
+				<div class="header__description">
+					Yes, that's me!
+				</div>
+				<div class="header__bio">
+					<p>
+						Hello, stranger! 👋
+					</p>
+					<p>
+						My name is Alexey, and I'm in love with music and
+						software development.
+					</p>
+				</div>
+				<div class="contacts">
+					<a
+						class="contacts__link"
+						href="mailto:alex.esprit@gmail.com"
+						title="E-mail"
+					>
+						<svg
+							class="contacts__icon"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#at"></use>
+						</svg>
+					</a>
+					<a
+						class="contacts__link"
+						href="https://github.com/alexesprit"
+						title="GitHub"
+					>
+						<svg
+							class="contacts__icon"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#github"></use>
+						</svg>
+					</a>
+					<a
+						class="contacts__link"
+						href="https://www.last.fm/ru/user/alexesprit"
+						title="Last.fm"
+					>
+						<svg
+							class="contacts__icon contacts__icon--lastfm"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#lastfm"></use>
+						</svg>
+					</a>
+					<a
+						class="contacts__link"
+						href="https://steamcommunity.com/id/alexesprit/"
+						title="Steam"
+					>
+						<svg
+							class="contacts__icon"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#steam"></use>
+						</svg>
+					</a>
 
-<body>
-    <div class="container">
-        <div class="user">
-            <img class="avatar" src="https://s.gravatar.com/avatar/f40ed6199429d040a01ba43d1e549898?s=256" alt="Avatar" >
-            <div class="username">
-                Oh, alexesprit? Yes, that's me!
-            </div>
-            <div class="bio">
-                I'm in love with music and software development.
-            </div>
-        </div>
-        <div class="contacts-row">
-            <a class="fa-stack" href="mailto:alex.esprit@gmail.com"  title="E-mail">
-                <i class="fas fa-square fa-stack-2x" style="color:#0071c5"></i>
-                <i class="fas fa-at fa-stack-1x fa-inverse"></i>
-            </a>
-            <a class="fa-stack" href="https://github.com/alexesprit" title="GitHub">
-                <i class="fas fa-square fa-stack-2x" style="color:#24292e"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-            </a>
-            <a class="fa-stack" href="https://www.last.fm/ru/user/alexesprit" title="Last.fm">
-                <i class="fas fa-square fa-stack-2x" style="color:#b90000"></i>
-                <i class="fab fa-lastfm fa-stack-1x fa-inverse"></i>
-            </a>
-            <a class="fa-stack" href="https://steamcommunity.com/id/alexesprit/" title="Steam">
-                <i class="fas fa-square fa-stack-2x" style="color:#171a21"></i>
-                <i class="fab fa-steam fa-stack-1x fa-inverse"></i>
-            </a>
-        </div>
-        <div class="contacts-row">
-            <a class="fa-stack" href="https://t.me/kotaaan" title="Telegram">
-                <i class="fas fa-square fa-stack-2x" style="color:#30a7df"></i>
-                <i class="fab fa-telegram fa-stack-1x fa-inverse"></i>
-            </a>
-            <a class="fa-stack" href="https://twitter.com/KotanPupkin" title="Twitter">
-                <i class="fas fa-square fa-stack-2x" style="color:#1da1f2"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-            </a>
-            <a class="fa-stack" href="https://vk.com/alexesprit" title="VK">
-                <i class="fas fa-square fa-stack-2x" style="color:#4a76a8"></i>
-                <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-            </a>
-        </div>
-        <div class="support">
-            <a href="https://ko-fi.com/C0C11HSW1" class="badge" title="Support me on Ko-fi" target="_blank">
-                <img src="https://img.shields.io/badge/support-Ko--fi-red" alt="Support me on Ko-fi"/>
-            </a>
-        </div>
-    </div>
-</body>
-
+					<a
+						class="contacts__link"
+						href="https://t.me/kotaaan"
+						title="Telegram"
+					>
+						<svg
+							class="contacts__icon"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#telegram"></use>
+						</svg>
+					</a>
+					<a
+						class="contacts__link"
+						href="https://twitter.com/KotanPupkin"
+						title="Twitter"
+					>
+						<svg
+							class="contacts__icon"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+					<a
+						class="contacts__link"
+						href="https://vk.com/alexesprit"
+						title="VK"
+					>
+						<svg
+							class="contacts__icon"
+							focusable="false"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<use xlink:href="#vk"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</header>
+	</body>
 </html>

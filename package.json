@@ -1,0 +1,15 @@
+{
+  "name": "alexesprit.github.io",
+  "version": "0.0.1",
+  "description": "My personal website",
+  "author": "alexesprit",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexesprit/alexesprit.github.io.git"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
