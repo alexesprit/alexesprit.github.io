@@ -1,51 +1,138 @@
-a {
-    color: #0088cc;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+	--header-foreground: #fff;
+	--header-active: #ddd;
+
+	--avatar-size: 12rem;
+	--contact-icon-size: 2rem;
 }
-a:hover {
-    text-decoration: underline;
+
+a {
+	text-decoration: none;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
 }
 
-.avatar {
-    border-radius: 50%;
-    padding: 8px;
+html {
+	box-sizing: border-box;
 }
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* Text alignment */
+
+.center {
+	text-align: center;
+}
+
+/* Base container  */
 
 .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+	margin: auto;
+	max-width: 992px;
+	padding: 4rem;
 }
 
-.bio {
-    color: #888;
-    font-size: 90%;
+/* Header */
+
+.header {
+	background-color: none;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+		url(images/cover.jpg) !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
-a.badge {
-    text-decoration: none;
+.header__avatar {
+	border-radius: 50%;
+	height: var(--avatar-size);
+	width: var(--avatar-size);
 }
 
-.contacts, .support, .user {
-    margin: 32px;
-    text-align: center;
+.header__name {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 1rem;
 }
 
-.contacts a {
-    font-size: 1.5em;
+.header__description {
+	font-size: 1.5em;
+	margin-top: 0.25rem;
 }
 
-.contacts-row {
-    margin: 16px;
+.header__bio {
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+/* Contacts */
+
+.contacts {
+	margin-top: 4rem;
+}
+
+.contacts__icon {
+	height: var(--contact-icon-size);
+	margin: 0.75rem;
+	width: var(--contact-icon-size);
+}
+
+.contacts__link {
+	color: var(--header-foreground);
+}
+
+.contacts__link:hover {
+	color: var(--header-active);
+}
+
+.contacts__icon--lastfm {
+	background-color: var(--header-foreground);
+	border-radius: 50%;
+	color: #333;
+	padding: 0.25rem;
+}
+
+.contacts__icon--lastfm:hover {
+	background-color: var(--header-active) !important;
+}
+
+@media (min-width: 768px) {
+	:root {
+		--avatar-size: 16rem;
+		--contact-icon-size: 3rem;
+	}
+
+	.header__name {
+		font-size: 3rem;
+	}
+
+	.header__description {
+		font-size: 2rem;
+	}
+
+	.header__bio {
+		font-size: 1.5rem;
+	}
 }
