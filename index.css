@@ -2,7 +2,6 @@
 
 :root {
 	--header-foreground: #fff;
-	--header-active: #ddd;
 
 	--avatar-size: 12rem;
 	--contact-icon-size: 2rem;
@@ -99,12 +98,12 @@ p {
 	width: var(--contact-icon-size);
 }
 
-.contacts__link {
-	color: var(--header-foreground);
+.contacts__icon:hover {
+	transform: scale(1.2);
 }
 
-.contacts__link:hover {
-	color: var(--header-active);
+.contacts__link {
+	color: var(--header-foreground);
 }
 
 .contacts__icon--lastfm {
@@ -112,10 +111,6 @@ p {
 	border-radius: 50%;
 	color: #333;
 	padding: 0.25rem;
-}
-
-.contacts__icon--lastfm:hover {
-	background-color: var(--header-active) !important;
 }
 
 @media (min-width: 768px) {
