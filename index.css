@@ -52,7 +52,6 @@ p {
 /* Header */
 
 .header {
-	background-color: none;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
 		url(https://source.unsplash.com/9l_326FISzk/1920x1279) !important;
 	background-position: center center;
