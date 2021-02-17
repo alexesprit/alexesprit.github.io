@@ -90,6 +90,7 @@ p {
 .contacts__icon {
 	height: var(--contact-icon-size);
 	margin: 0.75rem;
+	transition: transform 0.3s;
 	width: var(--contact-icon-size);
 }
 
