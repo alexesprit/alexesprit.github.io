@@ -43,10 +43,10 @@ p {
 
 /* Base container  */
 
-.container {
+.wrapper {
 	margin: auto;
 	max-width: 992px;
-	padding: 4rem;
+	padding: 4rem 2rem;
 }
 
 /* Header */
