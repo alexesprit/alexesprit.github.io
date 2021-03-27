@@ -10,7 +10,9 @@
     "url": "git+https://github.com/alexesprit/alexesprit.github.io.git"
   },
   "scripts": {
-    "lint": "stylelint *.css"
+    "lint": "stylelint *.css",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "devDependencies": {
     "live-server": "^1.2.1",
