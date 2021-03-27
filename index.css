@@ -4,7 +4,7 @@
 	--header-foreground: #fff;
 
 	--avatar-size: 12rem;
-	--contact-icon-size: 2rem;
+	--contact-icon-size: 3rem;
 }
 
 a {
@@ -112,7 +112,6 @@ p {
 @media (min-width: 768px) {
 	:root {
 		--avatar-size: 16rem;
-		--contact-icon-size: 3rem;
 	}
 
 	.header__name {
