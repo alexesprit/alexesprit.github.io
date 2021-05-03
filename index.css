@@ -110,7 +110,7 @@ p {
 	padding: 0.25rem;
 }
 
-@media (min-width: 768px) {
+@media (min-height: 992px) {
 	:root {
 		--avatar-size: 16rem;
 	}
