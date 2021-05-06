@@ -1,8 +1,8 @@
-name: Format
+name: Lint
 on: [push, pull_request]
 jobs:
   lint:
-    name: Check formatting
+    name: Lint project files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
@@ -16,5 +16,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check formatting
+      - name: Run linters
         run: npm run lint
