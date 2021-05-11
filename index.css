@@ -3,8 +3,8 @@
 :root {
 	--header-foreground: #fff;
 
-	--avatar-size: 12rem;
-	--contact-icon-size: 3rem;
+	--avatar-size: 10rem;
+	--contact-icon-size: 2rem;
 }
 
 a {
@@ -85,7 +85,7 @@ p {
 /* Contacts */
 
 .contacts {
-	margin-top: 4rem;
+	margin-top: 3rem;
 }
 
 .contacts__icon {
@@ -110,9 +110,10 @@ p {
 	padding: 0.25rem;
 }
 
-@media (min-height: 992px) {
+@media (min-height: 768px) {
 	:root {
 		--avatar-size: 16rem;
+		--contact-icon-size: 3rem;
 	}
 
 	.header__name {
