@@ -110,6 +110,31 @@ p {
 	padding: 0.25rem;
 }
 
+.tooltip__parent {
+	display: inline-block;
+	position: relative;
+}
+
+.tooltip__parent:hover .tooltip {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.tooltip {
+	color: #fff;
+	font-size: 12px;
+	left: 50%;
+	margin: auto auto 4px;
+	max-width: 240px;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	transform: translateX(-50%);
+	width: max-content;
+	z-index: 1;
+}
+
 @media (min-height: 768px) {
 	:root {
 		--avatar-size: 16rem;
