@@ -18,7 +18,7 @@
     "live-server": "^1.2.1",
     "prettier": "^2.0.5",
     "prettier-config-web-scrobbler": "^0.1.0",
-    "stylelint": "^13.6.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-web-scrobbler": "^0.2.0"
   },
   "prettier": "prettier-config-web-scrobbler",
